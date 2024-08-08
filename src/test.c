@@ -62,7 +62,7 @@ int main() {
     // init_source(&src); // 假设有一个初始化函数
     char file_path[256]; // 假设文件路径最长为255个字符
     // 提示用户输入文件路径
-    printf("请输入文件路径: ");
+    printf("please enter file_path: ");
     // 读取用户输入的文件路径
     // 去掉输入字符串末尾的换行符
     fgets(file_path, sizeof(file_path), stdin);
